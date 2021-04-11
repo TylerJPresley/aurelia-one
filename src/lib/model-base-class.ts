@@ -4,7 +4,7 @@
 
 import { BaseClass } from './base-class';
 
-export class BaseModel extends BaseClass {
+export class ModelBaseClass extends BaseClass {
 
 
 }

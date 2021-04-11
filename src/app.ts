@@ -3,9 +3,6 @@
  */
 
 import { Router, RouterConfiguration } from 'aurelia-router';
-import 'bootstrap';
-import 'bs4-toast';
-import 'jquery';
 import { PagePreRender } from './lib/page-pre-render';
 import { PagePostRender } from './lib/page-post-render';
 import { PagePreActivate } from './lib/page-pre-activate';
@@ -17,7 +14,7 @@ export class App {
   public configureRouter(config: RouterConfiguration, router: Router) {
 
     // Set the default title.
-    config.title = 'Adapop';
+    config.title = 'Aurelia One';
 
     // Set the pushState so that we don't have to use hashes in the URL.
     config.options.pushState = true;

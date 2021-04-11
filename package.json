@@ -1,5 +1,5 @@
 {
-  "name": "adapop-webapp",
+  "name": "aurelia-one",
   "description": "An Aurelia client application.",
   "version": "0.1.0",
   "repository": {
@@ -8,8 +8,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@types/bootstrap": "^4.6.0",
-    "@types/jquery": "^3.5.5",
+    "@types/bootstrap": "^5.0.12",
     "@types/natural-sort": "^0.0.20",
     "@types/numeral": "^2.0.1",
     "@types/storejs": "^2.0.3",
@@ -45,7 +44,6 @@
     "aurelia-templating-router": "^1.4.0",
     "aurelia-ui-virtualization": "^1.0.0-beta.7",
     "aurelia-validation": "^2.0.0-rc2",
-    "bootstrap": "^4.6.0",
     "bs4-toast": "^1.2.0",
     "font-awesome": "^4.7.0",
     "jquery": "^3.6.0",
@@ -61,6 +59,7 @@
   "devDependencies": {
     "@getify/eslint-plugin-proper-arrows": "^10.0.0",
     "@types/jest": "^26.0.20",
+    "@types/jquery": "^3.5.5",
     "@types/node": "^14.14.33",
     "@typescript-eslint/eslint-plugin": "^4.17.0",
     "@typescript-eslint/parser": "^4.17.0",
@@ -71,6 +70,7 @@
     "aurelia-testing": "^1.0.0",
     "autoprefixer": "^10.2.5",
     "babel-eslint": "^10.1.0",
+    "bootstrap": "^5.0.0-beta3",
     "connect": "^3.7.0",
     "connect-history-api-fallback": "^1.6.0",
     "connect-injector": "^0.4.4",
@@ -124,7 +124,7 @@
     "lint:test": "eslint test/ --ext .ts",
     "lint-fix": "eslint src/ --ext .ts --fix",
     "lint-fix:test": "eslint test/ --ext .ts --fix",
-    "docker:build": "docker build -t adapop-webapp:0.1.0 -t adapop-webapp:latest adapop-webapp",
+    "docker:build": "docker build -t aurelia-one:0.1.0 -t aurelia-one:latest aurelia-one",
     "docker:start": "docker-compose up -d",
     "docker:stop": "docker-compose down"
   },

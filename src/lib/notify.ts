@@ -2,8 +2,6 @@
  * @file Notification/toast wrapper library.
  */
 
-import 'bootstrap';
-import 'jquery';
 import { Utility } from './utility';
 
 export class Notify {
