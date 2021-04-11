@@ -1,0 +1,20 @@
+<template>
+
+  <require from="./scss/styles.css"></require>
+
+  <router-view></router-view>
+
+  <div id="site-loader" show.bind="router.isNavigating">
+    <div id="site-loader-inner">
+      <div class="sk-chase">
+        <div class="sk-chase-dot"></div>
+        <div class="sk-chase-dot"></div>
+        <div class="sk-chase-dot"></div>
+        <div class="sk-chase-dot"></div>
+        <div class="sk-chase-dot"></div>
+        <div class="sk-chase-dot"></div>
+      </div>
+    </div>
+  </div>
+
+</template>

@@ -1,0 +1,7 @@
+eslint settings
+
+  eslint rules - https://eslint.org/docs/rules/
+  typescript-eslint - https://github.com/typescript-eslint/typescript-eslint/tree/master/packages/eslint-plugin
+  JSDoc - https://www.npmjs.com/package/eslint-plugin-jsdoc
+  eslint-promise - https://github.com/xjamundx/eslint-plugin-promise
+
